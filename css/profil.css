@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+	color: #25182e;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://i.postimg.cc/YqNfTcb7/bg-doodle2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: white;
+    width: 80vw;
+    margin: 50px auto;
+    box-shadow: 3px 3px 10px #00000070;
+}
+
+.container .content {
+    display: flex;
+    width: 100%;
+}
+
+.container .content .profil {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 190, 0);
+    padding: 25px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.container .content .profil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border:1px solid #000000;
+}
+
+.container .content .profil p {
+    color: #25182e;
+}
+
+.container .content .profil button {
+	width: 100%;
+	color: #fff;
+	padding: 5px 0;
+	background-color: #ca1f3d;
+	border: none;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+.container .content .profil button:hover {
+	color: #fff;
+	background-color: #b51f3d;
+}
+
+.container .content .profil button:focus {
+	color: #fff;
+	background-color: #b51f3d;
+}
+
+.container .content .profil button:active {
+	color: #fff;
+	background-color: #b51f3d;
+}
+
+.container .content .profil button:disabled {
+	color: #fff;
+	background-color: #ca1f3d;
+}
